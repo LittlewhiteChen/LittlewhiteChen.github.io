@@ -1,0 +1,20 @@
+ @charset "UTF-8";
+/*
+* @authors kay chen (you@example.org)
+* @date    2015-04-14 12:51:59
+* @version $Id$
+*/
+
+.container {
+    width: 860px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h3 {
+    height: 40px;
+    text-align: center;
+    color: #EF1959;
+    font-weight: normal;
+    font: 16px/40px "Microsoft YaHei";
