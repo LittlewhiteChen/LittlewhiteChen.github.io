@@ -17,7 +17,7 @@ a:link{color:#37a;text-decoration:none;}
 .global-nav .global-nav-items{font-size:0;}
 ul{list-style-type:none;margin:0;padding:0;}
 ul,ol{list-style:none;}
-.global-nav .global-nav-items li .first-item{padding: 0;padding-right: 12px;}
+.global-nav .global-nav-items li .first-item{padding: 0;padding-right: 12px;color:#EF1959;}
 .global-nav .global-nav-items li{display:inline-block;zoom:1;line-height:28px;font-size:12px;vertical-align:baseline;}
 .global-nav .global-nav-items a{display:inline-block;zoom:1;padding:0 12px;height:28px;}
 .nav{width:100%;min-width:950px;overflow:hidden;zoom:1;margin-bottom:40px;background-color:#f0f3f5;}
