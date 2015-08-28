@@ -20,7 +20,7 @@ a:visited{color:#669;text-decoration:none;}
 .global-nav a:hover{color:#FFF;}
 .global-nav .top-nav-info{float:right;margin:0 12px 0 0;line-height:33px;}
 .global-nav .global-nav-items{font-size:0;}
-.global-nav .icon{background:#545652 url("../img/icon/search.png") no-repeat left center;padding-left:24px;}
+.global-nav .icon{background:#545652 url("../img/icon/search.png") no-repeat left 3px;padding-left:24px;}
 .global-nav .global-nav-items li .first-item{padding:0 5px;color:#FFF;font-weight:lighter;font:100 16px "微软雅黑 Light";line-height:33px;vertical-align:top;}
 .global-nav .global-nav-items li .first-item:hover{background:#EF1959;color:#FFF;}
 .global-nav .global-nav-items li{display:inline-block;zoom:1;line-height:33px;vertical-align:top;font:12px "微软雅黑";}
