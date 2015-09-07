@@ -5,7 +5,7 @@ permalink: /about/
 icon: glyphicon-heart
 ---
 
-### 关于我
+### 关于高浩阳
 
 > 2015年我将步入找工作的大潮，希望做一个前端开发工程师。 **[在线简历 Online CV](http://gaohaoyang.github.io/cv/)**
 
