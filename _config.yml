@@ -10,7 +10,7 @@ description: 往前走，让世界看到自己的不同
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  kaychen
+github_username:  LittlewhiteChen
 permalink: /:year/:month/:day/:title/
 
 # Build settings
