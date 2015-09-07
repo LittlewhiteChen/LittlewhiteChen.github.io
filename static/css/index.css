@@ -91,6 +91,7 @@ nav {
 .navbar {
     min-height: 0;
     border-radius: 0;
+    height: 33px;
 }
 
 .navbar-brand {
@@ -117,7 +118,16 @@ header {
 .navbar-header .title {
     color: #E73B3B;
 }
-
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+  height: 33px;
+  padding: 0px;
+  margin: 0;
+  line-height: 33px;
+}
+a.navbar-brand.title {
+  height: 33px;
+}
 
 /* index main */
 
