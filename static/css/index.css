@@ -48,34 +48,34 @@ table td {
     vertical-align: top;
 }
 
+
+/* 未访问的链接 */
+
 #index a:link {
-    color: #005
+    color: #000
 }
 
 
-/* 未访问的链接 */
+/* 已访问的链接 */
 
 #index a:visited {
     color: #FF8800;
 }
 
 
-/* 已访问的链接 */
+/* 鼠标移动到链接上 */
 
 #index a:hover {
-    color: #336;
+    color: #EF1959;
     text-decoration: none;
 }
 
 
-/* 鼠标移动到链接上 */
+/* 选定的链接 */
 
 #index a:active {
     color: #99b
 }
-
-
-/* 选定的链接 */
 
 
 /* navbar */
@@ -210,11 +210,11 @@ a.navbar-brand.title {
 
 /* categories list */
 
-/*.col-sm-3 {
+.col-sm-3 {
     padding-right: 23px;
     padding-left: 0px;
 }
-*/
+
 .categories-list-header {
     display: block;
     padding: 4px 10px;
@@ -443,15 +443,12 @@ footer .icon {
  * post articles area
  */
 
-
-
 .post {
     padding: 0px 0px;
     font-size: 14px;
     line-height: 1.5;
     /* -webkit-text-size-adjust: 100%; */
 }
-
 
 header p,
 article,
@@ -751,7 +748,6 @@ blockquote:last-child {
 
 @media screen and (max-width: 1200px) {
     .post {
-        padding: 0 20px;
         font-size: 15px;
         line-height: 1.4;
     }
