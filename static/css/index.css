@@ -105,13 +105,13 @@ nav {
 .navbar-nav li {
     width: 95px;
     text-align: center;
-    height: 33px;
+    height: 40px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: #9d9d9d;
     padding: 0;
-    line-height: 33px;
+    line-height: 40px;
     text-align: left;
     padding-left: 17px;
 }
@@ -119,17 +119,17 @@ nav {
 .navbar-header .title {
     color: #C7E73B;
 }
-.navbar-toggle{padding:0 10px;}
+.navbar-toggle{padding:0 10px;border:1px solid #222;}
 .navbar-inverse .navbar-text {
     color: #9d9d9d;
-    height: 33px;
+    height: 40px;
     padding: 0px;
     margin: 0;
-    line-height: 33px;
+    line-height: 40px;
 }
 
 a.navbar-brand.title {
-    height: 33px;
+    height: 40px;
 }
 
 
