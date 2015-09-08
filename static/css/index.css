@@ -158,7 +158,7 @@ a.navbar-brand.title {
 .post-list-item {
     display: block;
     padding: 8px 12px 10px 12px;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
@@ -322,14 +322,14 @@ a.navbar-brand.title {
 /* footer */
 
 footer {
-    min-height:30px;
+    min-height: 30px;
     line-height: 30px;
     margin-top: 80px;
     margin-bottom: 10px;
     /*background: #3f4850;*/
     color: #999;
     text-align: center;
-   /* -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    /* -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     -o-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);*/
@@ -367,19 +367,66 @@ footer a:active {
 footer .point {
     margin: 0 8px;
 }
-footer a[href="https://github.com/LittlewhiteChen"],footer a[href="https://github.com/Gaohaoyang"]{color:#EF3B5D;}
-footer a[href="https://github.com/LittlewhiteChen"]:hover,footer a[href="https://github.com/Gaohaoyang"]:hover{text-decoration: underline;color:#EF3B5D;}
-footer .icon{color:#000;}
+
+footer a[href="https://github.com/LittlewhiteChen"],
+footer a[href="https://github.com/Gaohaoyang"] {
+    color: #EF3B5D;
+}
+
+footer a[href="https://github.com/LittlewhiteChen"]:hover,
+footer a[href="https://github.com/Gaohaoyang"]:hover {
+    text-decoration: underline;
+    color: #EF3B5D;
+}
+
+footer .icon {
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+#footer a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+}
+
+#footer .light {
+    color: #F92672;
+}
+
+#footer a:hover {
+    color: #EF1959;
+    text-decoration: underline;
+}
+
+#footer .introduce {
+    margin-bottom: 0;
+    display: block;
+}
+
+#footer .share {}
+
+#music {
+    width: auto;
+    margin: 0 auto
+}
+
+#music audio {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: #F00;
+}
 
 
-#footer{width:100%;margin:0px auto;text-align:center;color:#999;font-size:14px;}
-#footer a{padding:0 5px;text-decoration:none;color:#999;font-size:14px;}
-#footer .light{color:#F92672;}
-#footer a:hover{color:#EF1959;text-decoration:underline;}
-#footer .introduce{margin-bottom: 0;display: block;}
-#footer .share{}
-#music{width:auto;margin:0 auto}
-#music audio{text-align:center;margin:0 auto;display:block;color:#F00;}
 /**
  * Icons
  */
@@ -397,21 +444,26 @@ footer .icon{color:#000;}
  */
 
 .post {
-      padding: 0px 0px;
-  font-size: 14px;
-  line-height: 1.5;
+    padding: 0px 0px;
+    font-size: 14px;
+    line-height: 1.5;
     /* -webkit-text-size-adjust: 100%; */
 }
-header h1 {
-  font: 16px "Microsoft YaHei";
-  border-top: 1px solid #FEA900;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  padding: 5px 15px 0px;
-  color: #EF1959;
+
+header {
+    margin: 0;
+    padding: 0;
 }
 
+header h1 {
+    font: 16px "Microsoft YaHei";
+    border-top: 1px solid #FEA900;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding: 5px 15px 0px;
+    color: #EF1959;
+}
 
 .post h4 {
     font-weight: bold;
@@ -424,6 +476,10 @@ header h1 {
     -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+article.page-content {
+    padding: 0 15px;
 }
 
 
