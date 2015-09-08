@@ -385,11 +385,20 @@ footer .point {
  */
 
 .post {
-    padding: 10px 30px;
-    font-size: 16px;
-    line-height: 1.5;
+      padding: 0px 15px;
+  font-size: 14px;
+  line-height: 1.5;
     /* -webkit-text-size-adjust: 100%; */
 }
+header h1 {
+  font: 16px "Microsoft YaHei";
+  border-top: 1px solid #FEA900;
+  display: inline-block;
+  margin-left: -15px;
+  padding: 5px 15px 0px;
+  color: #EF1959;
+}
+
 
 .post h4 {
     font-weight: bold;
@@ -654,11 +663,11 @@ blockquote:last-child {
 }
 
 .shadow-bottom-center {
-    background-color: #f8f8fd;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    background-color: #FFF;
+    /* -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset; */
 }
 
 #myAffix .affix {
