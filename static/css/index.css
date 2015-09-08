@@ -133,46 +133,55 @@ a.navbar-brand.title {
 }
 
 .post-area {
-    background-color: #f8f8fd;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+      background-color: #FFF;
+    /*-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
     -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;*/
 }
 
 .post-list-header {
-    padding: 15px 30px;
-    border-bottom: 1px solid #c0c0c0;
-    font-size: 30px;
+      padding: 0px 10px;
+  display: inline-block;
+  border-top: 1px solid #FEA900;
+  font: 18px "Monaco";
+  color: #EF1959;
 
 }
 
 .post-list-item {
     display: block;
-    padding: 8px 30px 10px 30px;
+    padding: 8px 12px 10px 12px;
     border-bottom: 1px solid #ddd;
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
     -o-transition: 0.4s ease;
 }
-
+.post-list-item span {
+  font: 13px "Monaco";
+  color: #9BBB1A;
+}
 .post-list-item:last-of-type {
     border-bottom: none;
 }
 
 .post-list-item h2 {
-    font-size: 20px;
+    font-size: 14px;
     margin: 8px 0 8px 0;
     padding: 0;
 }
 
 .post-list-item:hover {
-    background-color: rgba(0, 0, 6, 0.05);
+    /*background-color: rgba(0, 0, 6, 0.05);*/
+    color:#EF1959;
 }
-
+#index a:hover {
+  /* background-color: rgba(0, 0, 6, 0.05); */
+  color: #EF1959;
+}
 .paginator {
-    border-top: 1px solid #ddd;
+
     text-align: center;
     padding: 15px 20px;
 }
