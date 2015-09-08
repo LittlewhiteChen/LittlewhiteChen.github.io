@@ -394,6 +394,8 @@ header h1 {
   font: 16px "Microsoft YaHei";
   border-top: 1px solid #FEA900;
   display: inline-block;
+  margin: 0;
+  margin-bottom: 5px;
   margin-left: -15px;
   padding: 5px 15px 0px;
   color: #EF1959;
