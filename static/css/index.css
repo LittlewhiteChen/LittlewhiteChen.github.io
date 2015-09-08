@@ -325,7 +325,7 @@ footer {
     min-height:30px;
     line-height: 30px;
     margin-top: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     /*background: #3f4850;*/
     color: #999;
     text-align: center;
@@ -368,6 +368,7 @@ footer .point {
     margin: 0 8px;
 }
 footer a[href="https://github.com/LittlewhiteChen"],footer a[href="https://github.com/Gaohaoyang"]{color:#EF3B5D;}
+footer a[href="https://github.com/LittlewhiteChen"]:hover,footer a[href="https://github.com/Gaohaoyang"]:hover{text-decoration: underline;color:#EF3B5D;}
 footer .icon{color:#000;}
 
 
@@ -377,7 +378,7 @@ footer .icon{color:#000;}
 #footer a:hover{color:#EF1959;text-decoration:underline;}
 #footer .introduce{margin-bottom: 0;display: block;}
 #footer .share{}
-#music{width:auto;margin:0 auto 20px;}
+#music{width:auto;margin:0 auto}
 #music audio{text-align:center;margin:0 auto;display:block;color:#F00;}
 /**
  * Icons
