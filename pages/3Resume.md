@@ -8,4 +8,4 @@ icon: glyphicon-user
 我的个人简历,About the online version [resume]()
 
 
-![我的个人简历](../resume.jpg)
+![我的个人简历](../img/resume.jpg)
