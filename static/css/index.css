@@ -210,11 +210,11 @@ a.navbar-brand.title {
 
 /* categories list */
 
-.col-sm-3 {
+/*.col-sm-3 {
     padding-right: 23px;
     padding-left: 0px;
 }
-
+*/
 .categories-list-header {
     display: block;
     padding: 4px 10px;
@@ -452,10 +452,6 @@ footer .icon {
     /* -webkit-text-size-adjust: 100%; */
 }
 
-header {
-    margin: 0;
-    padding: 0;
-}
 
 header p,
 article,
@@ -755,6 +751,7 @@ blockquote:last-child {
 
 @media screen and (max-width: 1200px) {
     .post {
+        padding: 0 20px;
         font-size: 15px;
         line-height: 1.4;
     }
