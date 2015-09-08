@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Resume
-permalink: /Resume/
+permalink: /resume/
 icon: glyphicon-men
 ---
 
 我的个人简历,About the online version [resume]()
    
-![我的个人简历](./微博图片.jpg)
+![我的个人简历](../img/resume.jpg)
 
 
 
