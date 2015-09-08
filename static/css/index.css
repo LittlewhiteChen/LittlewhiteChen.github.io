@@ -322,11 +322,12 @@ a.navbar-brand.title {
 /* footer */
 
 footer {
-    min-height: 50px;
-    line-height: 50px;
+    min-height:21px;
+    line-height: 1.5;
     margin-top: 80px;
+    margin-bottom: 25px;
     /*background: #3f4850;*/
-    color: #aaa;
+    color: #999;
     text-align: center;
    /* -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
