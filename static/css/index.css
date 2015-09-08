@@ -322,8 +322,8 @@ a.navbar-brand.title {
 /* footer */
 
 footer {
-    min-height:27px;
-    line-height: 27px;
+    min-height:30px;
+    line-height: 30px;
     margin-top: 80px;
     margin-bottom: 25px;
     /*background: #3f4850;*/
@@ -367,8 +367,18 @@ footer a:active {
 footer .point {
     margin: 0 8px;
 }
-footer a[href="https://github.com/LittlewhiteChen"]{color:#EF3B5D;}
+footer a[href="https://github.com/LittlewhiteChen"],footer a[href="https://github.com/Gaohaoyang"]{color:#EF3B5D;}
 footer .icon{color:#000;}
+
+
+#footer{width:100%;margin:50px auto;text-align:center;color:#999;font-size:14px;padding-top:20px;}
+#footer a{padding:5px;text-decoration:none;color:#999;font-size:14px;}
+#footer .light{color:#F92672;}
+#footer a:hover{color:#EF1959;text-decoration:underline;}
+#footer .introduce{margin-top:20px;}
+#footer .share{margin-top:5px;}
+#music{width:1024px;margin:0 auto 20px;}
+#music audio{text-align:center;margin:0 auto;display:block;color:#F00;}
 /**
  * Icons
  */
