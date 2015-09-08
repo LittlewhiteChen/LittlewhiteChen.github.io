@@ -56,7 +56,7 @@ table td {
 /* 未访问的链接 */
 
 #index a:visited {
-    color: #669
+    color: #F800
 }
 
 
@@ -134,9 +134,7 @@ a.navbar-brand.title {
 
 
 /* index main */
-.container {
-    padding: 0;
-}
+.container{padding: 0 5px;}
 .main {
     min-height: 800px;
 }
@@ -757,7 +755,6 @@ blockquote:last-child {
 
 @media screen and (max-width: 1200px) {
     .post {
-        padding: 10px 10px;
         font-size: 15px;
         line-height: 1.4;
     }
