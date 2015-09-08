@@ -56,7 +56,7 @@ table td {
 /* 未访问的链接 */
 
 #index a:visited {
-    color: #F800
+    color: #FF8800;
 }
 
 
