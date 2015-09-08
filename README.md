@@ -16,19 +16,12 @@
 
 ### static view
 
-![blog sample](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blog sample.png)
 
-### active view
-
-![blog-blogShow1](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow1.gif)
-
-![blog-blogShow2](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow2.gif)
 
 ## Attention
 
-When you use this theme. Please make sure to add the author's info, like this: Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang) or Designed by [Gaohaoyang](https://github.com/Gaohaoyang) 
-
-While you should delete statistics code in _includes/head.html.
+When you fork the theme ,you should:
+delete statistics code in _includes/head.html.
 
 like this:
 
@@ -37,7 +30,7 @@ var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "//hm.baidu.com/hm.js?**************************";
-  var s = document.getElementsByTagName("script")[0]; 
+  var s = document.getElementsByTagName("script")[0]; :
   s.parentNode.insertBefore(hm, s);
 })();
 ```
