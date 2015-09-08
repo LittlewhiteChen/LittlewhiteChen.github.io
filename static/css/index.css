@@ -452,7 +452,7 @@ article,
 }
 
 header h1 {
-    font: 16px "Microsoft YaHei";
+    font: 16px "Microsoft YaHei,Monaco";
     border-top: 1px solid #FEA900;
     display: inline-block;
     margin: 0;
