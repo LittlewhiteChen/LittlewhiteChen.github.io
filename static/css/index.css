@@ -397,7 +397,7 @@ footer .icon{color:#000;}
  */
 
 .post {
-      padding: 0px 15px;
+      padding: 0px 0px;
   font-size: 14px;
   line-height: 1.5;
     /* -webkit-text-size-adjust: 100%; */
@@ -407,8 +407,7 @@ header h1 {
   border-top: 1px solid #FEA900;
   display: inline-block;
   margin: 0;
-  margin-bottom: 5px;
-  margin-left: -15px;
+  padding: 0;
   padding: 5px 15px 0px;
   color: #EF1959;
 }
