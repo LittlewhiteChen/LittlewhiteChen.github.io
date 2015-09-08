@@ -82,10 +82,14 @@ table td {
 
 nav {
     /*-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.5);*/
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    -o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);*/
     border-radius: 0;
+}
+
+.nav .glyphicon {
+    color: #9BBB1A;
 }
 
 .navbar {
@@ -110,21 +114,22 @@ nav {
     line-height: 33px;
 }
 
-
-
 .navbar-header .title {
-      color: #C7E73B;
+    color: #C7E73B;
 }
+
 .navbar-inverse .navbar-text {
-  color: #9d9d9d;
-  height: 33px;
-  padding: 0px;
-  margin: 0;
-  line-height: 33px;
+    color: #9d9d9d;
+    height: 33px;
+    padding: 0px;
+    margin: 0;
+    line-height: 33px;
 }
+
 a.navbar-brand.title {
-  height: 33px;
+    height: 33px;
 }
+
 
 /* index main */
 
@@ -133,7 +138,7 @@ a.navbar-brand.title {
 }
 
 .post-area {
-      background-color: #FFF;
+    background-color: #FFF;
     /*-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
     -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
@@ -141,12 +146,11 @@ a.navbar-brand.title {
 }
 
 .post-list-header {
-      padding: 0px 10px;
-  display: inline-block;
-  border-top: 1px solid #FEA900;
-  font: 18px "Monaco";
-  color: #EF1959;
-
+    padding: 0px 10px;
+    display: inline-block;
+    border-top: 1px solid #FEA900;
+    font: 18px "Monaco";
+    color: #EF1959;
 }
 
 .post-list-item {
@@ -158,10 +162,12 @@ a.navbar-brand.title {
     -moz-transition: 0.4s ease;
     -o-transition: 0.4s ease;
 }
+
 .post-list-item span {
-  font: 13px "Monaco";
-  color: #9BBB1A;
+    font: 13px "Monaco";
+    color: #9BBB1A;
 }
+
 .post-list-item:last-of-type {
     border-bottom: none;
 }
@@ -170,18 +176,20 @@ a.navbar-brand.title {
     font-size: 14px;
     margin: 8px 0 8px 0;
     padding: 0;
+    color：#000;
 }
 
 .post-list-item:hover {
     /*background-color: rgba(0, 0, 6, 0.05);*/
-    color:#EF1959;
+    color: #EF1959;
 }
-#index a:hover {
-  /* background-color: rgba(0, 0, 6, 0.05); */
-  color: #EF1959;
-}
-.paginator {
 
+#index a:hover {
+    /* background-color: rgba(0, 0, 6, 0.05); */
+    color: #EF1959;
+}
+
+.paginator {
     text-align: center;
     padding: 15px 20px;
 }
@@ -200,18 +208,22 @@ a.navbar-brand.title {
 
 /* categories list */
 
+.col-sm-3 {
+    padding-right: 28px;
+    padding-left: 0px;
+}
+
 .categories-list-header {
     display: block;
-    padding: 12px 15px;
-    border-bottom: 1px solid #c0c0c0;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 4px 10px;
+    border-top: 1px solid #1ACDF7;
+    font: 16px "Monaco";
+    color:#EF1959;
 }
 
 .categories-list-item {
     display: block;
-    padding: 8px 15px;
-    border-bottom: 1px solid #ddd;
+    padding: 9px 10px;
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
@@ -254,7 +266,8 @@ a.navbar-brand.title {
 
 .shadow-corner-curl {
     position: relative;
-    background-color: #f8f8fd;
+    background-color: #FFF;
+    background: #FFF url();
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.1) inset;
