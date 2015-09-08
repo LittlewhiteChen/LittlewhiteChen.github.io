@@ -99,7 +99,7 @@ nav {
 }
 
 .navbar-brand {
-    padding: 5px 15px;
+    padding: 8px 15px;
 }
 
 .navbar-nav li {
@@ -121,7 +121,7 @@ nav {
 }
 
 .navbar-toggle {
-    padding: 7px 10px 8px;
+    padding: 12px 10px;
     margin-top: 0;
     margin-bottom: 0;
     /*border:1px solid #222;*/
