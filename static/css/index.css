@@ -59,7 +59,7 @@ table td {
 /* 已访问的链接 */
 
 #index a:visited {
-    color: #FF8800;
+    color: #000;
 }
 
 
