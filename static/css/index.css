@@ -452,7 +452,7 @@ article,
 }
 
 header h1 {
-    font: 16px "Microsoft YaHei,Monaco";
+    font: 16px "Monaco";
     border-top: 1px solid #FEA900;
     display: inline-block;
     margin: 0;
@@ -460,7 +460,7 @@ header h1 {
     padding: 5px 15px 0px;
     color: #EF1959;
 }
-
+header h1+p{font:13px "Monaco"}
 .post h4 {
     font-weight: normal;
 }
