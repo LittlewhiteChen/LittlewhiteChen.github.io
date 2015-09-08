@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-icon: glyphicon-heart
+icon: glyphicon-signal
 ---
 
 ### 关于我
