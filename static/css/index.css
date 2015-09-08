@@ -124,7 +124,7 @@ nav {
     padding: 12px 10px;
     margin-top: 0;
     margin-bottom: 0;
-    border:1px solid #222;
+    border:none;
 }
 
 .navbar-inverse .navbar-text {
