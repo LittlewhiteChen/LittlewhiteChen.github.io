@@ -181,15 +181,6 @@ a.navbar-brand.title {
     color：#000;
 }
 
-.post-list-item:hover {
-    /*background-color: rgba(0, 0, 6, 0.05);*/
-    color: #EF1959;
-}
-
-#index a:hover {
-    /* background-color: rgba(0, 0, 6, 0.05); */
-    color: #EF1959;
-}
 
 .paginator {
     text-align: center;
