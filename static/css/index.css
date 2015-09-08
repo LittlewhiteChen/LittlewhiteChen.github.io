@@ -51,7 +51,7 @@ table td {
 
 /* 未访问的链接 */
 
-#index a:link {
+#index a {
     color: #000
 }
 
@@ -180,7 +180,6 @@ a.navbar-brand.title {
     padding: 0;
     color：#000;
 }
-
 
 .paginator {
     text-align: center;
@@ -439,6 +438,10 @@ footer .icon {
     font-size: 14px;
     line-height: 1.5;
     /* -webkit-text-size-adjust: 100%; */
+}
+
+.post header {
+    margin-bottom: 20px
 }
 
 header p,
