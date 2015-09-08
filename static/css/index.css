@@ -119,7 +119,7 @@ nav {
 .navbar-header .title {
     color: #C7E73B;
 }
-
+.navbar-toggle{padding:0 10px;}
 .navbar-inverse .navbar-text {
     color: #9d9d9d;
     height: 33px;
@@ -441,7 +441,7 @@ footer .icon {
 }
 
 .post header {
-    margin-bottom: 20px
+    margin-bottom: 22px
 }
 
 header p,
@@ -461,6 +461,7 @@ header h1 {
     color: #EF1959;
 }
 header h1+p{font:13px "Monaco"}
+
 .post h4 {
     font-weight: normal;
 }
