@@ -375,7 +375,7 @@ footer .icon{color:#000;}
 #footer a{padding:0 5px;text-decoration:none;color:#999;font-size:14px;}
 #footer .light{color:#F92672;}
 #footer a:hover{color:#EF1959;text-decoration:underline;}
-#footer .introduce{}
+#footer .introduce{margin-bottom: 0;}
 #footer .share{}
 #music{width:1024px;margin:0 auto 20px;}
 #music audio{text-align:center;margin:0 auto;display:block;color:#F00;}
