@@ -112,6 +112,8 @@ nav {
     color: #9d9d9d;
     padding: 0;
     line-height: 33px;
+    text-align: left;
+    padding-left: 17px;
 }
 
 .navbar-header .title {
@@ -218,7 +220,7 @@ a.navbar-brand.title {
     padding: 4px 10px;
     border-top: 1px solid #1ACDF7;
     font: 16px "Monaco";
-    color:#EF1959;
+    color: #EF1959;
 }
 
 .categories-list-item {
