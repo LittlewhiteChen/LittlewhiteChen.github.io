@@ -134,7 +134,9 @@ a.navbar-brand.title {
 
 
 /* index main */
-
+.container {
+    padding: 0;
+}
 .main {
     min-height: 800px;
 }
@@ -443,6 +445,8 @@ footer .icon {
  * post articles area
  */
 
+
+
 .post {
     padding: 0px 0px;
     font-size: 14px;
@@ -454,9 +458,14 @@ header {
     margin: 0;
     padding: 0;
 }
-header p,article,.comment,.bdsharebuttonbox.bdshare-button-style1-24 {
-  padding: 0 15px;
+
+header p,
+article,
+.comment,
+.bdsharebuttonbox.bdshare-button-style1-24 {
+    padding: 0 15px;
 }
+
 header h1 {
     font: 16px "Microsoft YaHei";
     border-top: 1px solid #FEA900;
