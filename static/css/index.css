@@ -454,7 +454,9 @@ header {
     margin: 0;
     padding: 0;
 }
-
+header p,article,.comment,.bdsharebuttonbox.bdshare-button-style1-24 {
+  padding: 0 15px;
+}
 header h1 {
     font: 16px "Microsoft YaHei";
     border-top: 1px solid #FEA900;
@@ -466,7 +468,7 @@ header h1 {
 }
 
 .post h4 {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .post img {
