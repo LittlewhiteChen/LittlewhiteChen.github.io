@@ -101,7 +101,8 @@ nav {
 .navbar-nav li {
     width: 95px;
     text-align: center;
-    height: 33px;
+
+    z-index: 20
 }
 
 .navbar-inverse .navbar-nav>li>a {
