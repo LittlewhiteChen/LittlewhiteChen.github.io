@@ -371,12 +371,12 @@ footer a[href="https://github.com/LittlewhiteChen"],footer a[href="https://githu
 footer .icon{color:#000;}
 
 
-#footer{width:100%;margin:50px auto;text-align:center;color:#999;font-size:14px;padding-top:20px;}
-#footer a{padding:5px;text-decoration:none;color:#999;font-size:14px;}
+#footer{width:100%;margin:0px auto;text-align:center;color:#999;font-size:14px;}
+#footer a{padding:0 5px;text-decoration:none;color:#999;font-size:14px;}
 #footer .light{color:#F92672;}
 #footer a:hover{color:#EF1959;text-decoration:underline;}
-#footer .introduce{margin-top:20px;}
-#footer .share{margin-top:5px;}
+#footer .introduce{}
+#footer .share{}
 #music{width:1024px;margin:0 auto 20px;}
 #music audio{text-align:center;margin:0 auto;display:block;color:#F00;}
 /**
