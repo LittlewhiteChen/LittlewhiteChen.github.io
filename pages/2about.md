@@ -32,8 +32,8 @@ icon: glyphicon-signal
 
 Time | Content
 :----------------------------: | :----------------------:
-2015-09-8 | 1、初始建站，主页增加了四个模块，分别为 Home Site About Resume<br />2、其中Site分页主要是后期用于前端资源收集和项目展示。
-2015-09-9 | 添加了多说评论的第三方系统，有访问我网站的朋友可以评论我的文章，同时<br />后期想增加留言板功能。
+2015-09-8 | 1、初始建站，主页增加了四个模块，分别为 Home Site About Resume功能模块。<br />2、其中Site分页主要是后期用于前端资源收集和项目展示。
+2015-09-9 | 添加了多说评论的第三方系统，有访问我网站的朋友可以评论我的文章，同时后期想增加留言板功能。欢迎有好点子的朋友推荐一些新技术，非常感谢啦！
 
 
 
@@ -48,15 +48,31 @@ Time | Content
 　　QQ： &nbsp;&nbsp;&nbsp;1410529363   
 　　微 信： &nbsp;kaychen707   
 　　GitHub：[GitHub账号](https://github.com/LittlewhiteChen)   
-　　博 客：[陈小凯](http://www.cnblogs.com/kaychen/)   
+　　博 客：&nbsp;[陈小凯](http://www.cnblogs.com/kaychen/)   
 　　新浪微博：[炫彩七号](http://weibo.com/LittlewhiteChen)   
 　　我的知乎：[知乎账号](http://www.zhihu.com/people/kaychenzhihu)   
 
----
 
 #### 友好链接邀请
+
 ---
 
 欢迎前端开发领域的好友留下你的站点地址，相互链接。再次感谢您的来访，
 [陈小凯，欢迎访问我的博客](http://www.cnblogs.com/kaychen/)
 [GitHub主页](https://github.com/LittlewhiteChen)      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
