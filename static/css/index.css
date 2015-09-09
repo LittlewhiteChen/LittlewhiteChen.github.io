@@ -489,6 +489,13 @@ article.page-content {
     padding: 0 15px;
 }
 
+.post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1.5;font-weight:normal;}
+.post article h1{font-size:16px;color:#97B921;border-bottom:0}
+.post article h2{font-size:15px;color:#EF1959;border-left:2px solid #AA73D1}
+.post article h3{font-size:14px;color:#EF1959;border-left:2px solid #97B921;margin-left:5px}
+.post article h4{font-size:13px;color:#F6A400;border-left:2px solid #F0215A;margin-left:10px}
+.post article h5{font-size:12px;color:#F6A400;border-left:2px solid #F0215A;margin-left:15px}
+.post article h6{font-size:12px;color:#F6A400;border-left:2px solid #F0215A;margin-left:20px}
 
 /**
  * Blockquotes
