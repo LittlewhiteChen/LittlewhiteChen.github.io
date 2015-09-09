@@ -14,7 +14,9 @@ article p {
     /*text-indent: 2em;*/
       line-height: 2.2;
 }
-
+blockquote p,article p {
+  font-size: 13px;
+}
 pre {
     padding: 0;
     background: none;
@@ -491,7 +493,7 @@ article.page-content {
 }
 
 .post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1;font-weight:normal;margin: 20px 0;}
-.post article h1{font-size:16px;color:#C7E73B;/* border-left:2px solid #FF5F00;text-indent: 7px; */}
+.post article h1{font-size:16px;color:#BCE700;font-family: "Monaco";/* border-left:2px solid #FF5F00;text-indent: 7px; */}
 .post article h2{font-size:15px;color:#EF1959;}
 .post article h3{font-size:14px;color:#EF1959;}
 .post article h4{font-size:13px;color:#F6A400;}
@@ -714,7 +716,7 @@ blockquote:last-child {
 /* 已访问的链接 */
 
 #content a:hover {
-    color: #336;
+    color: #EF1959;
     text-decoration: none;
 }
 
@@ -730,6 +732,8 @@ blockquote:last-child {
 
 #content {
     max-width: 292px;
+    position: fixed;
+    right: 87px;
 }
 
 #content .content-text {
@@ -742,7 +746,7 @@ blockquote:last-child {
 
 #content ul li {
     /*list-style: none;*/
-    font-size: 15px;
+    font-size: 14px;
     line-height: 25px;
 }
 
