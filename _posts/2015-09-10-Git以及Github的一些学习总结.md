@@ -117,3 +117,96 @@ Git是一个分布式的版本控制系统。
 -  查看文件变更 : git status ;
 -  提交代码到本地缓存 : git commit -m 'description';
 -  提交代码到远程GitHub仓库 :git push ;
+
+---
+
+### 分支和合并
+
+#### 查看现存分支
+
+查看现存分支 : `git branch`命令;
+
+	git branch 
+	
+#### 创建分支
+
+	git branch branch1(name)
+	
+#### 切换分支
+切换分支 : `git checkout` 分支名称, 切换分支以后, 在分支进行操作,文件的改变不会体现在master主分支中, 主分支改变, 会体现在其它分支中;
+**主分支文件的操作会影响到其他分支的内容，但是在分支里的操作并不会影响到主分支的内容**
+
+	git checkout branch1(name)
+
+#### 提交分支
+
+	git push origin experiment(master)
+
+#### 分支合并移除
+
+合并分支之后, 分支中有的文件在 主分支中也会显示, 相当于将branch1 分支中的文件拷贝了一份到master分支中
+
+	git merge branch1(name)(to  master)
+
+#### 删除分支
+
+	git branch -d branch1(name)
+强制删除分支命令 : 如果branch1 分支还没有被合并的话, Git是不允许删除这个分支的, 此时要想删除该分支, 就只能使用下面的命令强制删除该分支
+
+	git branch -D branch1
+
+---
+
+## Git工作流程
+
+### (1) 两种工作流程
+
+
+#### 协作开发工作流程 
+
+这种情况是最复杂的情况, 多人团队共同开发一个项目;
+-  与远程仓库同步 : git pull ;
+-  修改文件 : 添加 删除 修改文件;
+-  查看变更 : git status ;
+-  载入变更 :添加文件, 先使用git add fileName, 在使用 git commit -m 'note' 载入变更; 如果是删除 修改文件, 直接使用 git commit -m 'note' 提交;
+-  重复 : 重复执行 修改文件 查看变更 载入变更 提交载入动作;
+-  上传 : 使用 git push 命令将项目源码提交带GitHub中去;
+
+#### 单独开发工作流程
+
+如果是个人独立开发, 仅追踪本地文件变更, 就不需要提交到服务器上, 因为Git是分布式的;
+-  修改文件 : 
+-  提交变更 : 
+-  重复 : 
+
+### （2）具体操作
+
+#### 独立开发
+
+a、从GitHub中检出项目源码 : 注意, 检出的源码是根目录源码, 我们在总仓库的根目录检出即可,不同再为项目创建目录;
+
+	git clone git@github.com:han1202012/AndroidPictureViewer.git
+	
+b、可以查看状态
+
+	git status
+	
+c、提交修改后的版本
+
+	git commit -m"descriotin"
+	
+d、同步远程仓库
+
+	git push
+	
+#### 协作开发
+
+a、与远程仓库同步
+
+	git pull
+
+b、载入变更 : 如果有变更, 那么使用命令载入变更. 使用 `git commit -a` 或者 `git add` 命令;
+c、添加文件 : 先使用 `git add` 文件名 来添加文件到缓存, 之后使用 `git commit -m ''` 命令提交代码到本地缓存;
+d、删除改变文件 : 直接使用 `git commit -m ''`, 提交删除 或则 改变 到本地缓存;
+e、同步到远程仓库  `git push`
+	
