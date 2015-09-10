@@ -19,11 +19,11 @@ Time       | Content(更新功能模块的介绍)
 
 * 主页
  
-![Home](http://littlewhitechen.github.io/img/blog/Home.png)
+![Home](http://littlewhitechen.github.io/img/blog/Home.PNG)
 
 * 手机版
 
-![Mobile](http://littlewhitechen.github.io/img/blog/mobile.png)
+![Mobile](http://littlewhitechen.github.io/img/blog/mobile.PNG)
 
 
 
