@@ -368,8 +368,7 @@ footer .point {
     margin: 0 8px;
 }
 
-footer a[href="https://github.com/LittlewhiteChen"],
-footer a[href="https://github.com/Gaohaoyang"] {
+footer a[href="https://github.com/LittlewhiteChen"] {
     color: #EF3B5D;
 }
 
@@ -492,7 +491,7 @@ article.page-content {
     padding: 0 15px;
 }
 
-.post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1;font-weight:normal;margin: 20px 0;}
+.post article h4,.post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1.5;font-weight:normal;margin: 20px 0;}
 .post article h1{font-size:16px;color:#BCE700;font-family: "Monaco";/* border-left:2px solid #FF5F00;text-indent: 7px; */}
 .post article h2{font-size:15px;color:#EF1959;}
 .post article h3{font-size:14px;color:#F2572E;}
