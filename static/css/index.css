@@ -495,10 +495,10 @@ article.page-content {
 .post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1;font-weight:normal;margin: 20px 0;}
 .post article h1{font-size:16px;color:#BCE700;font-family: "Monaco";/* border-left:2px solid #FF5F00;text-indent: 7px; */}
 .post article h2{font-size:15px;color:#EF1959;}
-.post article h3{font-size:14px;color:#EF1959;}
-.post article h4{font-size:13px;color:#F6A400;}
-.post article h5{font-size:12px;color:#2748BC;}
-.post article h6{font-size:12px;color:#E3313B;}
+.post article h3{font-size:14px;color:#F2572E;}
+.post article h4{font-size:14px;color:#FEA900;}
+.post article h5{font-size:13px;color:#00D0FF;}
+.post article h6{font-size:13px;color:#E3313B;}
 
 /**
  * Blockquotes
