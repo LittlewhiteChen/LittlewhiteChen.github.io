@@ -480,6 +480,7 @@ header h1+p {
 
 .post img {
     max-width: 100%;
+    margin: 10px auto;
     vertical-align: middle;
     -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
