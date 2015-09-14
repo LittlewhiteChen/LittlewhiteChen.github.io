@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "关于Javascript中的作用域和作用域链的思考和总结"
