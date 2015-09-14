@@ -9,8 +9,6 @@ excerpt: 关于Javascript中的作用域和作用域链的思考，Javascript中
 * content
 {:toc}
 
-
-
 ## 问题背景
 
 今天上课的时候，看到`作用域链`这个词儿,之前诸位Javascript的时候，还好理解了的，可以当时就是连概念就弄不清楚了，说明还是没有很深入理解这个Javascript中的难点！
