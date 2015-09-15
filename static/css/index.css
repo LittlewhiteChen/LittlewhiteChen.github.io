@@ -680,7 +680,7 @@ blockquote:last-child {
 /* 已访问的链接 */
 
 #fall a:hover {
-    color: #5989AD;
+    color: #1ACDF7;
     text-decoration: none;
 }
 
@@ -688,7 +688,7 @@ blockquote:last-child {
 /* 鼠标移动到链接上 */
 
 #fall a:active {
-    color: #91C3CF
+    color: #FEA900
 }
 
 
