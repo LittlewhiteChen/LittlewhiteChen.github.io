@@ -596,7 +596,7 @@ blockquote:last-child {
 #fall ul {
     margin: 0 10px;
     padding: 0;
-    width: 240px;
+    /*width: 240px;*/
     /*background-color: red;*/
     display: inline-block;
     vertical-align: top;
@@ -616,14 +616,14 @@ blockquote:last-child {
 }
 
 #fall li {
-    margin: 0 0 20px 0;
+    margin: 0 0 50px 0;
     padding: 0;
     list-style-type: none;
     font-size: 14px;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+   /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;*/
     transition: 0.1s ease-out;
     -webkit-transition: 0.1s ease-out;
     -moz-transition: 0.1s ease-out;
@@ -631,15 +631,15 @@ blockquote:last-child {
 }
 
 #fall li:hover {
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+   /* -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;*/
+    /*-webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);*/
 }
 
 #fall li p {
@@ -647,22 +647,26 @@ blockquote:last-child {
 }
 
 #fall .head {
-    font-size: 16px;
-    text-align: left;
-    margin: 0 10px;
-    padding: 10px 0 5px 0;
-    border-bottom: 1px dotted #ddd;
-    font-weight: bold;
+  font: 15px "Monaco,Microsoft YaHei";
+  text-align: left;
+  margin: 5px 0px 20px -14px;
+  /* padding: 10px 0 5px 0; */
+  /* border-bottom: 1px dotted #ddd; */
+  /* font-weight: bold; */
+  text-indent: 10px;
+  line-height: 1;
+  border-left: 2px solid #EF1959;
+  color: #F11959;
 }
 
 #fall .description {
     text-align: left;
-    padding: 5px 10px 10px 10px;
+    /*padding: 5px 10px 10px 10px;*/
     text-indent: 2em;
 }
 
 #fall a:link {
-    color: #7676AC
+    color: #F11959;
 }
 
 

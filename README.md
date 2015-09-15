@@ -2,7 +2,7 @@
 
 这是我个人的前端开发学习站点，如果你喜欢我的站点，可以相互交流学习。[主页](http://littlewhitechen.github.io/)
 
----
+
 
 ## Update
 
@@ -12,13 +12,13 @@ Time       | Content(更新功能模块的介绍)
 2015-09-9       | 添加了多说评论的第三方系统，有访问我网站的朋友可以评论我的文章，同时后期想增加留言板功能。欢迎有好点子的朋友推荐一些新技术，非常感谢啦！
 
 
----
 
 
-### static view
+
+### Static view
 
 * 主页
- 
+
 ![Home](http://littlewhitechen.github.io/img/blog/Home.PNG)
 
 * 手机版
@@ -45,8 +45,8 @@ var duoshuoQuery = {short_name:"******"};
         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
         ds.charset = 'UTF-8';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-})(); 
-``` 
+})();
+```
 
 
 
