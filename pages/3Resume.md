@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
-permalink: /resume/
+title: Profile
+permalink: /profile/
 icon: glyphicon-user
 ---
 

@@ -41,16 +41,16 @@ Time | Content
 
 ----
 
-　　姓 名： &nbsp;陈 凯
-　　地 址： &nbsp;湖北省 武汉市 武汉科技大学 人和七号423 陈凯
-　　电 话： &nbsp;15671592309
-　　邮 箱： &nbsp;kaychen707@gmail.com
-　　QQ： &nbsp;&nbsp;&nbsp;1410529363
-　　微 信： &nbsp;kaychen707
-　　GitHub：[GitHub账号](https://github.com/LittlewhiteChen)
-　　博 客：&nbsp;&nbsp;[陈小凯](http://www.cnblogs.com/kaychen/)
-　　新浪微博：[炫彩七号](http://weibo.com/LittlewhiteChen)
-　　我的知乎：[知乎账号](http://www.zhihu.com/people/kaychenzhihu)
+　　姓 名： &nbsp;陈 凯<br />
+　　地 址： &nbsp;湖北省 武汉市 武汉科技大学 人和七号423 陈凯<br />
+　　电 话： &nbsp;15671592309<br />
+　　邮 箱： &nbsp;kaychen707@gmail.com<br />
+　　QQ： &nbsp;&nbsp;&nbsp;1410529363<br />
+　　微 信： &nbsp;kaychen707<br />
+　　GitHub：[GitHub账号](https://github.com/LittlewhiteChen)<br />
+　　博 客：&nbsp;&nbsp;[陈小凯](http://www.cnblogs.com/kaychen/)<br />
+　　新浪微博：[炫彩七号](http://weibo.com/LittlewhiteChen)<br />
+　　我的知乎：[知乎账号](http://www.zhihu.com/people/kaychenzhihu)<br />
 
 
 #### 友好链接邀请
