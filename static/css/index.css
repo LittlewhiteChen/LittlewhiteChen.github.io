@@ -673,7 +673,7 @@ blockquote:last-child {
 /* 未访问的链接 */
 
 #fall a:visited {
-    color: #715584
+    color: #EF1959
 }
 
 
