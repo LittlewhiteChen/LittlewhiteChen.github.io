@@ -196,17 +196,29 @@ a.navbar-brand.title {
     padding: 15px 20px;
 }
 
-.paginator a {
-    /*display: inline-block;*/
-    margin: 0 12px;
+#index .paginator a {
+  display: inline-block;
+  color: #ff6500;
+  display: inline-block;
+  padding: 3px 9px 0px 9px;
+  font-size: 14px;
+  margin:0 5px;
+  height: 25px;
+  border-radius: 4px;
+ /* border: 1px solid #C9C9C9;*/
+  background: #F7F7F7;
 }
 
 .paginator .active {
-    margin: 0 12px;
-    color: #2E2435;
-    font-weight: bold;
+  margin:0 5px;
+  padding: 3px 9px 0 9px;
+  color: #FFF;
+  /* font-weight: bold; */
+  display: inline-block;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #F11959;
 }
-
 
 /* categories list */
 
