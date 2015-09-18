@@ -7,16 +7,19 @@
 
 body {
     background: #F7F7F7;
-    font-family: 'Monaco','Microsoft YaHei', 'Helvetica', 'Arial', 'SimHei', 'sans-serif';
+    font-family: 'Monaco', 'Microsoft YaHei', 'Helvetica', 'Arial', 'SimHei', 'sans-serif';
 }
 
 article p {
     /*text-indent: 2em;*/
-      line-height: 2.2;
+    line-height: 2.2;
 }
-blockquote p,article p {
-  font-size: 13px;
+
+blockquote p,
+article p {
+    font-size: 13px;
 }
+
 pre {
     padding: 0;
     background: none;
@@ -127,7 +130,7 @@ nav {
     padding: 12px 10px;
     margin-top: 0;
     margin-bottom: 0;
-    border:none;
+    border: none;
 }
 
 .navbar-inverse .navbar-text {
@@ -197,28 +200,29 @@ a.navbar-brand.title {
 }
 
 #index .paginator a {
-  display: inline-block;
-  color: #ff6500;
-  display: inline-block;
-  padding: 3px 9px 0px 9px;
-  font-size: 14px;
-  margin:0 2px;
-  height: 25px;
-  border-radius: 4px;
- /* border: 1px solid #C9C9C9;*/
-  background: #F7F7F7;
+    display: inline-block;
+    color: #ff6500;
+    display: inline-block;
+    padding: 3px 9px 0px 9px;
+    font-size: 14px;
+    margin: 0 2px;
+    height: 25px;
+    border-radius: 4px;
+    /* border: 1px solid #C9C9C9;*/
+    background: #F7F7F7;
 }
 
 .paginator .active {
-  margin:0 2px;
-  padding: 3px 9px 0 9px;
-  color: #FFF;
-  /* font-weight: bold; */
-  display: inline-block;
-  height: 25px;
-  border-radius: 4px;
-  background-color: #F11959;
+    margin: 0 2px;
+    padding: 3px 9px 0 9px;
+    color: #FFF;
+    /* font-weight: bold; */
+    display: inline-block;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #F11959;
 }
+
 
 /* categories list */
 
@@ -403,10 +407,11 @@ footer .icon {
 }
 
 #footer a {
-    padding: 0 5px;
+    padding: 7px 5px;
     text-decoration: none;
     color: #999;
     font-size: 14px;
+    display: inline-block;
 }
 
 #footer .light {
@@ -505,13 +510,49 @@ article.page-content {
     padding: 0 15px;
 }
 
-.post article h4,.post article h3,.post article h2,.post article h1,.post article h5,.post article h6{line-height:1.5;font-weight:normal;margin: 20px 0;}
-.post article h1{font-size:16px;color:#BCE700;font-family: "Monaco";/* border-left:2px solid #FF5F00;text-indent: 7px; */}
-.post article h2{font-size:15px;color:#EF1959;}
-.post article h3{font-size:14px;color:#F2572E;}
-.post article h4{font-size:14px;color:#FEA900;}
-.post article h5{font-size:13px;color:#00D0FF;}
-.post article h6{font-size:13px;color:#E3313B;}
+.post article h4,
+.post article h3,
+.post article h2,
+.post article h1,
+.post article h5,
+.post article h6 {
+    line-height: 1.5;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.post article h1 {
+    font-size: 16px;
+    color: #BCE700;
+    font-family: "Monaco";
+    /* border-left:2px solid #FF5F00;text-indent: 7px; */
+}
+
+.post article h2 {
+    font-size: 15px;
+    color: #EF1959;
+}
+
+.post article h3 {
+    font-size: 14px;
+    color: #F2572E;
+}
+
+.post article h4 {
+    font-size: 14px;
+    color: #FEA900;
+}
+
+.post article h5 {
+    font-size: 13px;
+    color: #00D0FF;
+}
+
+.post article h6 {
+    font-size: 13px;
+    color: #E3313B;
+}
+
 
 /**
  * Blockquotes
@@ -540,36 +581,38 @@ blockquote:last-child {
  */
 
 #top {
-  position: fixed;
-  right: 15px;
-  bottom: 28px;
-  width: 44px;
-  height: 42px;
-  background-color: #F7F7F7;
-  border-radius: 5px;
-  opacity: 0.8;
-  display: none;
-  z-index: 888;
+    position: fixed;
+    right: 15px;
+    bottom: 28px;
+    width: 44px;
+    height: 42px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    opacity: 0.8;
+    display: none;
+    z-index: 888;
 }
+
 div#top:hover {
-  background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
+
 #top .arrow {
-  margin: 0 auto;
-  padding-top: 10px;
-  width: 0;
-  height: 0;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-bottom: 12px solid #FFAA01;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #FFAA01;
 }
 
 #top .stick {
-  margin: 0 auto;
-  padding-bottom: 12px;
-  width: 2px;
-  border-bottom: 3px solid #FFAA01;
-  background-color: #FFAA01;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    width: 2px;
+    border-bottom: 3px solid #FFAA01;
+    background-color: #FFAA01;
 }
 
 
@@ -635,7 +678,7 @@ div#top:hover {
     padding: 0;
     list-style-type: none;
     font-size: 14px;
-   /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    /* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.1) inset;*/
@@ -646,7 +689,7 @@ div#top:hover {
 }
 
 #fall li:hover {
-   /* -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    /* -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.1) inset;*/
@@ -662,16 +705,16 @@ div#top:hover {
 }
 
 #fall .head {
-  font: 15px "Monaco,Microsoft YaHei";
-  text-align: left;
-  margin: 5px 0px 20px -14px;
-  /* padding: 10px 0 5px 0; */
-  /* border-bottom: 1px dotted #ddd; */
-  /* font-weight: bold; */
-  text-indent: 10px;
-  line-height: 1;
-  border-left: 2px solid #EF1959;
-  color: #F11959;
+    font: 15px "Monaco,Microsoft YaHei";
+    text-align: left;
+    margin: 5px 0px 20px -14px;
+    /* padding: 10px 0 5px 0; */
+    /* border-bottom: 1px dotted #ddd; */
+    /* font-weight: bold; */
+    text-indent: 10px;
+    line-height: 1;
+    border-left: 2px solid #EF1959;
+    color: #F11959;
 }
 
 #fall .description {
