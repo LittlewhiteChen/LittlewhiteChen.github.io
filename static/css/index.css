@@ -384,12 +384,12 @@ footer .point {
     margin: 0 8px;
 }
 
-footer a[href="https://github.com/LittlewhiteChen"] {
+/*footer a[href="https://github.com/LittlewhiteChen"] {
     color: #EF3B5D;
-}
+}*/
 
 footer a[href="https://github.com/LittlewhiteChen"]:hover,
-footer a[href="https://github.com/Gaohaoyang"]:hover {
+footer a[href="http://jekyllthemes.org/"]:hover {
     text-decoration: underline;
     color: #EF3B5D;
 }
