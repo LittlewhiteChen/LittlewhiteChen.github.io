@@ -222,7 +222,11 @@ a.navbar-brand.title {
     border-radius: 4px;
     background-color: #F11959;
 }
-
+@media (max-width:768px){
+    .col-sm-9{
+        padding-right: 0px;
+        padding-left: 0px;}
+}
 
 /* categories list */
 
