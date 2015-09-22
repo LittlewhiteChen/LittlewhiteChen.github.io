@@ -878,4 +878,9 @@ div#top:hover {
        margin-right: 0px;
        margin-left: 0px;
     }
+
+    footer .row {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
 }
