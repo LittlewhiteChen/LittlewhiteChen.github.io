@@ -863,4 +863,15 @@ div#top:hover {
         margin: 0 10px;
 
     }
+    .navbar-inverse .navbar-nav>li>a {
+        padding-left: 10px;
+    }
+
+    .post {
+
+        margin: 0 -15px;
+    }
+    #fall ul {
+        margin: 0;
+    }
 }
