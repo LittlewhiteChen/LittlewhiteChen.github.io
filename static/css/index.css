@@ -875,12 +875,14 @@ div#top:hover {
         margin: 0;
     }
     .row {
-       margin-right: 0px;
-       margin-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
-
+    div#index {
+        margin-left: -15px;
+        margin-right: -15px;}
     footer .row {
-      margin-right: -15px;
-      margin-left: -15px;
+        margin-right: -15px;
+        margin-left: -15px;
     }
 }
