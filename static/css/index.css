@@ -582,16 +582,18 @@ blockquote:last-child {
  */
 
 #top {
-    position: fixed;
-    right: 10px;
-    bottom: 28px;
-    width: 44px;
-    height: 42px;
-    background-color: #F7F7F7;
-    border-radius: 5px;
-    opacity: 0.8;
-    display: none;
-    z-index: 888;
+      position: fixed;
+      right: 10px;
+      bottom: 25px;
+      width: 42px;
+      border: 1px solid #CCC;
+      border-radius: 42px;
+      height: 42px;
+      background-color: #F7F7F7;
+      opacity: 0.8;
+      display: none;
+      z-index: 888;
+      transition: 1s;
 }
 
 div#top:hover {
@@ -599,23 +601,22 @@ div#top:hover {
 }
 
 #top .arrow {
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 0;
-    height: 0;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-bottom: 12px solid #FFAA01;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 0;
+  height: 0;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 10px solid #FF0033;
 }
 
 #top .stick {
-    margin: 0 auto;
-    padding-bottom: 12px;
-    width: 2px;
-    border-bottom: 3px solid #FFAA01;
-    background-color: #FFAA01;
+  margin: 0 auto;
+  padding-bottom: 7px;
+  width: 2px;
+  border-bottom: 7px solid #FF3333;
+  background-color: #A6E22E;
 }
-
 
 /**
  * page-content
