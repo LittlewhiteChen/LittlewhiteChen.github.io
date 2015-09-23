@@ -597,7 +597,8 @@ blockquote:last-child {
 }
 
 div#top:hover {
-    background-color: rgb(0, 0, 0);
+      background-color: rgba(255, 255, 255 ,0.7);
+      border-color: #A6E22E;
 }
 
 #top .arrow {
@@ -886,5 +887,13 @@ div#top:hover {
     footer .row {
         margin-right: -15px;
         margin-left: -15px;
+    }
+    
+    #top{
+          bottom: 10px;
+    }
+    
+    footer{
+        margin-bottom: 13px;
     }
 }
