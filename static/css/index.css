@@ -105,7 +105,7 @@ nav {
 }
 
 .navbar-brand {
-    padding: 8px 15px;
+    padding: 9px 15px;
 }
 
 .navbar-nav li {
@@ -852,7 +852,7 @@ div#top:hover {
         padding-left: 0px;
     }
     .navbar-brand {
-        padding: 8px 10px;
+        padding: 9px 10px;
     }
     .post-list-header {
         padding: 0px 0px;
@@ -887,11 +887,11 @@ div#top:hover {
         margin-right: -15px;
         margin-left: -15px;
     }
-    
+
     #top{
           bottom: 10px;
     }
-    
+
     footer{
         margin-bottom: 13px;
     }
