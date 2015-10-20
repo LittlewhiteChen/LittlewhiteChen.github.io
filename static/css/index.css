@@ -660,6 +660,7 @@ div#top:hover {
     /*background-color: red;*/
     display: inline-block;
     vertical-align: top;
+    max-width:1100px;
     /*float: left;*/
 }
 
