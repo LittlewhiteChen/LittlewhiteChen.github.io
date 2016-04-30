@@ -2,7 +2,7 @@
 layout: post
 title:  "关于Javascript中的作用域和作用域链的思考和总结"
 date:   2015-09-14 23:06:05
-categories: Javascript Front-end
+categories: 前端笔记 Javascript 
 excerpt: 关于Javascript中的作用域和作用域链的思考，Javascript中的重点问题。
 ---
 
