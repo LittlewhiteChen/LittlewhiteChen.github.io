@@ -9,7 +9,7 @@ layout: default
        <button>toggle</button>
      </p> -->
       <div class="post-list-header">
-        Posts
+        文章列表
       </div>
       <div class="post-list-body">
 
@@ -80,10 +80,10 @@ layout: default
   <div class="col-sm-3">
     <div class="shadow-corner-curl hidden-xs">
       <div class="categories-list-header">
-        Categories
+        导航目录
       </div>
 
-      <a href="{{'/index.html' | prepend: site.baseurl}}" class="categories-list-item" cate="All">
+      <a href="{{'/index.html' | prepend: site.baseurl}}" class="categories-list-item" cate="所有文章">
         All<span class="my-badge"> {{site.posts | size}}</span>
       </a>
       {% for category in site.categories order:ascending %}
