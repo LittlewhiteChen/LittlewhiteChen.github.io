@@ -491,7 +491,8 @@ header h1 {
 }
 
 header h1+p {
-    font: 13px "Monaco"
+    font: 13px "Monaco";
+    margin-top: 14px;
 }
 
 .post h4 {
