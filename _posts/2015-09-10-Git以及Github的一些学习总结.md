@@ -2,7 +2,7 @@
 layout: post
 title:  "强大的Git和Github，我学习的一些总结"
 date:   2015-09-10 00:06:05
-categories: Git Github
+categories: Github
 excerpt: Git以及Github，CMD命令行。
 ---
 
