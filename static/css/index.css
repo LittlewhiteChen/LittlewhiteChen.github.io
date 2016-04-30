@@ -162,10 +162,11 @@ a.navbar-brand.title {
 }
 
 .post-list-header {
-    padding: 0px 10px;
+    font: 500 16px "Monaco";
+    padding: 4px 10px;
     display: inline-block;
     border-top: 1px solid #FEA900;
-    font: 18px "Monaco";
+
     color: #EF1959;
 }
 
@@ -236,13 +237,13 @@ a.navbar-brand.title {
     display: block;
     padding: 4px 10px;
     border-top: 1px solid #1ACDF7;
-    font: 16px "Monaco";
+    font: 500 16px "Monaco";
     color: #EF1959;
 }
 
 .categories-list-item {
     display: block;
-    padding: 9px 10px;
+    padding: 9px 11px;
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
