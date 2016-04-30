@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于作者
 permalink: /about/
 icon: glyphicon-signal
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume
+title: 我的简历
 permalink: /Resume/
 icon: glyphicon-user
 ---
