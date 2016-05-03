@@ -149,6 +149,9 @@ a.navbar-brand.title {
     height: 40px;
 }
 
+a.navbar-brand.title:hover {
+    color: #ef1959;
+}
 
 /* index main */
 
