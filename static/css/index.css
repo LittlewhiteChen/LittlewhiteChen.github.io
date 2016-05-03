@@ -143,6 +143,7 @@ nav {
 }
 p.navbar-text:hover {
     color: #FFF;
+    transition: 2s;
 }
 
 a.navbar-brand.title {
@@ -151,6 +152,7 @@ a.navbar-brand.title {
 
 a.navbar-brand.title:hover {
     color: #ef1959;
+    transition: 1s;
 }
 
 /* index main */
