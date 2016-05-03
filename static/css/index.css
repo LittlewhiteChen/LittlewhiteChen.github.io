@@ -141,6 +141,9 @@ nav {
     margin: 0;
     line-height: 40px;
 }
+p.navbar-text:hover {
+    color: #FFF;
+}
 
 a.navbar-brand.title {
     height: 40px;
