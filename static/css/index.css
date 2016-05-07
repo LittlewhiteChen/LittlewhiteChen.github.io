@@ -529,7 +529,8 @@ header h1 {
 
 header h1+p {
     font: 13px Monaco,Microsoft YaHei;
-    margin-top: 14px;
+    margin-top: 13px;
+    margin-bottom: 16px;
     color: #9BBB1A;
 }
 
