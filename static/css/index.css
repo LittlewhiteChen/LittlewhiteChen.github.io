@@ -191,6 +191,16 @@ a.navbar-brand.title:hover {
     font: 13px "Monaco";
     color: #9BBB1A;
 }
+.post-list-item .author{
+    font: 14px "Microsoft YaHei";
+    color: #AA73D1;
+
+}
+.post-list-item .meta{
+    font: 14px "Microsoft YaHei";
+    color: #FC8741;
+
+}
 .post-list-item .description{
     font: 14px "Monaco";
     line-height: 20px;
@@ -198,6 +208,7 @@ a.navbar-brand.title:hover {
     color: #000;
     display: block;
 }
+
 .all-posts .gap{
     display: block;
     height: 22px;
