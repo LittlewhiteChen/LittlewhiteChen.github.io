@@ -528,8 +528,9 @@ header h1 {
 }
 
 header h1+p {
-    font: 13px "Monaco";
-    margin-top: 14px;
+    font: 13px "Monaco,Microsoft YaHei";
+    line-height: 44px;
+
     color: #9BBB1A;
 }
 
