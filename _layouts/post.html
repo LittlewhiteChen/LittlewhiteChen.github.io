@@ -7,7 +7,7 @@ layout: default
       <header>
         <h1>{{ page.title }}</h1>
         <p>posted @ {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        <p class="description">{% if page.description %}{{ page.description }}{% endif %}</p>
+        <p class="detail-description">{% if page.description %}{{ page.description }}{% endif %}</p>
       </header>
       <article>
         {{content}}
