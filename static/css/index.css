@@ -193,12 +193,14 @@ a.navbar-brand.title:hover {
 }
 .post-list-item .author{
     font: 14px "Microsoft YaHei";
-    color: #AA73D1;
+    color: #9BBB1A;
+    padding: 0 13px ;
 
 }
 .post-list-item .meta{
     font: 14px "Microsoft YaHei";
     color: #FC8741;
+    padding: 0 12px ;
 
 }
 .post-list-item .description{
