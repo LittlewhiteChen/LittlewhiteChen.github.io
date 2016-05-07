@@ -224,7 +224,7 @@ a.navbar-brand.title:hover {
 }
 
 .post-list-item h2 {
-    font-size: 15px;
+    font: 15px "Monaco";
     margin: 8px 0 8px 0;
     padding: 0;
     color:#EF1959;
