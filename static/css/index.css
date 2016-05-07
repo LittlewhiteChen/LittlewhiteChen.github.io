@@ -205,7 +205,7 @@ a.navbar-brand.title:hover {
 }
 .post-list-item .description{
     font: 14px "Monaco";
-    line-height: 20px;
+    line-height: 30px;
     margin: 17px 0 ;
     color: #000;
     display: block;
