@@ -196,7 +196,7 @@ a.navbar-brand.title:hover {
     font: 14px "Monaco";
     color: #9BBB1A;
     line-height: 20px;
-    margin-top:10px 0 ;
+    margin: 10px 0 ;
 }
 .all-posts .gap{
     display: block;
