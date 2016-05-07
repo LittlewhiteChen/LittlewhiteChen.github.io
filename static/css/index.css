@@ -195,7 +195,15 @@ a.navbar-brand.title:hover {
 .post-list-item .description{
     font: 14px "Monaco";
     color: #9BBB1A;
-    line-height: 20px;
+    line-height: 40px;
+}
+.post-list-item .gap{
+    display: block;
+    height: 40px;
+    width: 100%;
+    font: 14px "Monaco";
+    background: #000;
+    line-height: 40px;
 }
 .post-list-item:last-of-type {
     border-bottom: none;
