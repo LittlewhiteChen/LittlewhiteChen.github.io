@@ -15,7 +15,10 @@ layout: default
 
         <div class="all-posts" post-cate="All">
           {% for post in paginator.posts %}
+            <span class="gap">
+            </span>
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+
               <h2>
               {{ post.title }}
               </h2>

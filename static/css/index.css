@@ -197,13 +197,13 @@ a.navbar-brand.title:hover {
     color: #9BBB1A;
     line-height: 40px;
 }
-.post-list-item .gap{
+.all-posts .gap{
     display: block;
-    height: 40px;
+    height: 22px;
     width: 100%;
     font: 14px "Monaco";
-    background: #000;
-    line-height: 40px;
+    background: #F7F7F7;
+    line-height: 22px;
 }
 .post-list-item:last-of-type {
     border-bottom: none;
