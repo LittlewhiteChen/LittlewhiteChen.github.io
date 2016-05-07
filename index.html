@@ -15,8 +15,7 @@ layout: default
 
         <div class="all-posts" post-cate="All">
           {% for post in paginator.posts %}
-            <span class="gap">
-            </span>
+
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
               <h2>
               {{ post.title }}
@@ -26,9 +25,8 @@ layout: default
               {{ post.description }}
               </span>
             </a>
-
-
-
+            <span class="gap">
+            </span>
           {% endfor %}
           <!-- 分页 -->
       <div class="paginator">
