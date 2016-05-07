@@ -215,6 +215,9 @@ a.navbar-brand.title:hover {
     margin: 8px 0 8px 0;
     padding: 0;
     color:#EF1959;
+    border-left: 2px solid #EF1959;
+    text-indent: 7px;
+    margin-left: -9px;
 }
 
 .paginator {
