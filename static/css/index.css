@@ -70,7 +70,12 @@ nav {
 .nav .glyphicon {
     color: #9bbb1a
 }
-
+.nav .index-text{
+    color:#FFF;
+}
+.nav .index-icon{
+    color:#EF1959;
+}
 .navbar {
     z-index: 20;
     min-height: 0;
