@@ -71,7 +71,11 @@ nav {
     color: #9bbb1a
 }
 .nav #index-text{
-    color:#FFF;
+    color:#333;
+}
+.nav #index-text:hover {
+    color: #EF1959;
+    transition: 1s;
 }
 .nav .index-icon{
     color:#EF1959;
@@ -81,7 +85,11 @@ nav {
     min-height: 0;
     border-radius: 0;
     border: none;
-    background: #F1F1F1;
+    margin-bottom: 30px;
+    background: #EDF4EC;
+    box-shadow: rgba(0,0,0,.075) 0 0 32px;
+    -moz-box-shadow: rgba(0,0,0,.075) 0 0 32px;
+    -webkit-box-shadow: rgba(0,0,0,.075) 0 0 32px;
 }
 
 .navbar-brand {
@@ -103,7 +111,7 @@ nav {
 }
 
 .navbar-header .title {
-    color: #c7e73b
+    color: #EF1959
 }
 
 .navbar-toggle {
@@ -135,7 +143,7 @@ a.navbar-brand.title {
 
 a.navbar-brand.title:hover {
     transition: 1s;
-    color: #ef1959
+    color: #C40000
 }
 
 .main {
