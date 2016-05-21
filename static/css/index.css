@@ -71,11 +71,7 @@ nav {
     color: #9bbb1a
 }
 .nav #index-text{
-    color:#333;
-}
-.nav #index-text:hover {
-    color: #EF1959;
-    transition: 1s;
+    color:#FFF;
 }
 .nav .index-icon{
     color:#EF1959;
@@ -85,11 +81,7 @@ nav {
     min-height: 0;
     border-radius: 0;
     border: none;
-    margin-bottom: 30px;
-    background: #EDF4EC;
-    box-shadow: rgba(0,0,0,.075) 0 0 32px;
-    -moz-box-shadow: rgba(0,0,0,.075) 0 0 32px;
-    -webkit-box-shadow: rgba(0,0,0,.075) 0 0 32px;
+    background: #222222;
 }
 
 .navbar-brand {
@@ -107,11 +99,11 @@ nav {
     padding: 0;
     padding-left: 15px;
     text-align: left;
-    color: #333;
+    color: #9d9d9d
 }
 
 .navbar-header .title {
-    color: #EF1959
+    color: #c7e73b
 }
 
 .navbar-toggle {
@@ -143,7 +135,7 @@ a.navbar-brand.title {
 
 a.navbar-brand.title:hover {
     transition: 1s;
-    color: #C40000
+    color: #ef1959
 }
 
 .main {
