@@ -746,9 +746,9 @@ div#top:hover {
         padding-right: 0;
         padding-left: 0
     }
-    nav{
+    .navbar{
         height:auto;
-        background: #222222;
+        background: #222;
     }
     .navbar-brand {
         padding: 9px 10px
