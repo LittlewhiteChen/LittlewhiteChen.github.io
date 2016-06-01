@@ -83,9 +83,9 @@ nav {
     border: none;
     margin-bottom: 30px;
     background: #222222;
-    box-shadow: rgba(0,0,0,0.7) 0 -1px 32px;
+   /* box-shadow: rgba(0,0,0,0.7) 0 -1px 32px;
     -moz-box-shadow: rgba(0,0,0,0.7) 0 -1px 32px;
-    -webkit-box-shadow: rgba(0,0,0,0.7) 0 -1px 32px;
+    -webkit-box-shadow: rgba(0,0,0,0.7) 0 -1px 32px;*/
 }
 
 .navbar-brand {
