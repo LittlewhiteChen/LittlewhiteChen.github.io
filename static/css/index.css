@@ -157,7 +157,7 @@ a.navbar-brand.title:hover {
 }
 
 .post-area {
-    background-color: #fff
+    background: #fff url(http://LittlewhiteChen.github.io/img/index/index_bg.png) no-repeat top right;
 }
 
 .post-list-header {
