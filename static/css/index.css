@@ -73,9 +73,9 @@ nav {
 .nav #index-text{
     color:#FFF;
 }
-.nav .index-icon{
+/*.nav .index-icon{
     color:#EF1959;
-}
+}*/
 .navbar {
     z-index: 20;
     min-height: 0;
@@ -93,7 +93,7 @@ nav {
     padding: 0px 15px
 }
 .navbar-nav li {
-    width: 80px;
+    width: 88px;
     height: 77px;
     margin-left: 10px;
     margin-right: 10px;
@@ -110,12 +110,17 @@ nav {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    line-height: 77px;
+
     padding: 0;
     text-align: left;
-    color: #9d9d9d;
-    font-size: 14px;
-    font-weight: bold;
+    color: rgba(250,250,250,1);
+
+    font: bold 15px/77px "Microsoft YaHei UI";
+    font-family: "Hiragino Sans GB","Microsoft Yahei UI","Microsoft Yahei","微软雅黑",'Segoe UI',Tahoma,"宋体b8b\4f53",SimSun,sans-serif;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #EF1959;
+    background-color: transparent;
 }
 .navbar-header .title {
     color: #c7e73b
@@ -770,6 +775,7 @@ div#top:hover {
     }
     .navbar-inverse .navbar-nav > li > a {
         line-height: 40px;
+        font-size: 14px;
     }
     a.navbar-brand.title {
         height: 40px;
