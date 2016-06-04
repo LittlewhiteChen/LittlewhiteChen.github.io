@@ -68,7 +68,8 @@ nav {
 }
 
 .nav .glyphicon {
-    color: #9bbb1a
+    color: #9bbb1a;
+    margin-right: 7px;
 }
 /*.nav #index-text{
     color:#FFF;
