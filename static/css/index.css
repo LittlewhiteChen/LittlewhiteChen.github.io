@@ -104,9 +104,10 @@ nav {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #ef1959;
+
     background: none;
-    border-bottom: 1px solid #EF1959;
+/*    border-bottom: 1px solid #EF1959;*/
 }
 
 .navbar-inverse .navbar-nav > li > a {
