@@ -102,7 +102,7 @@ nav {
     text-align: center;
 }
 .navbar-nav li:last-child {
-    margin-right: 5px;
+    margin-right: -3px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
